@@ -4,5 +4,5 @@ function getCartData(data){
 }
 
 var script = document.createElement('script');
-script.src = 'https://jasons-experiments.myshopify.com/cart.json?callback=getCartData'
+script.src = 'https://quyetnd.myshopify.com/cart.json?callback=getCartData'
 document.getElementsByTagName('head')[0].appendChild(script);
